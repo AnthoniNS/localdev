@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitanda do Zé - Frutas, Verduras e Legumes Frescos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-icon">🍊</span>
+                <div>
+                    <h1>Quitanda do Zé</h1>
+                    <p class="tagline">Fresquinho do campo pra sua mesa!</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#produtos" class="nav-link">Produtos</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <button class="cart-btn" id="cartBtn" aria-label="Abrir carrinho">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-count" id="cartCount">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">🌱 100% Natural</span>
+                <h2>Produtos fresquinhos <br>direto do produtor!</h2>
+                <p>Na Quitanda do Zé você encontra frutas, verduras e legumes selecionados, colhidos no ponto certo para levar mais sabor e saúde à sua família.</p>
+                <a href="#produtos" class="btn-primary">Ver Produtos</a>
+            </div>
+            <div class="hero-image">
+                <div class="floating-fruit f1">🍎</div>
+                <div class="floating-fruit f2">🍌</div>
+                <div class="floating-fruit f3">🥕</div>
+                <div class="floating-fruit f4">🍅</div>
+                <div class="floating-fruit f5">🥬</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="benefits">
+        <div class="container benefits-grid">
+            <div class="benefit">
+                <span class="benefit-icon">🚚</span>
+                <h3>Entrega Rápida</h3>
+                <p>Receba em casa no mesmo dia</p>
+            </div>
+            <div class="benefit">
+                <span class="benefit-icon">🌿</span>
+                <h3>Sempre Frescos</h3>
+                <p>Produtos colhidos diariamente</p>
+            </div>
+            <div class="benefit">
+                <span class="benefit-icon">💰</span>
+                <h3>Preço Justo</h3>
+                <p>Direto do produtor, sem intermediários</p>
+            </div>
+            <div class="benefit">
+                <span class="benefit-icon">⭐</span>
+                <h3>Qualidade</h3>
+                <p>Seleção rigorosa dos melhores</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="products" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <p class="section-subtitle">Escolha seus favoritos e adicione ao carrinho</p>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="frutas">🍎 Frutas</button>
+                <button class="filter-btn" data-filter="verduras">🥬 Verduras</button>
+                <button class="filter-btn" data-filter="legumes">🥕 Legumes</button>
+            </div>
+
+            <!-- GRID DE PRODUTOS -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Produtos serão inseridos via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about" id="sobre">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>Sobre a Quitanda do Zé</h2>
+                <p>Há mais de 20 anos levando frescor e qualidade para a mesa das famílias. O Seu Zé começou com uma pequena banca de frutas na feira e hoje é referência em produtos selecionados.</p>
+                <p>Trabalhamos com produtores locais, garantindo produtos colhidos no ponto certo de maturação, sem agrotóxicos e com aquele sabor de comida de verdade.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <strong>20+</strong>
+                        <span>Anos de tradição</span>
+                    </div>
+                    <div class="stat">
+                        <strong>500+</strong>
+                        <span>Clientes felizes</span>
+                    </div>
+                    <div class="stat">
+                        <strong>50+</strong>
+                        <span>Produtos frescos</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-card">
+                    <span class="about-emoji">👨‍🌾</span>
+                    <h3>Seu Zé</h3>
+                    <p>"Meu compromisso é levar o melhor da roça pra sua casa!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact" id="contato">
+        <div class="container contact-content">
+            <h2>Fale com a gente</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span>📍</span>
+                    <div>
+                        <strong>Endereço</strong>
+                        <p>Rua das Flores, 123 - Centro</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span>📞</span>
+                    <div>
+                        <strong>Telefone</strong>
+                        <p>(11) 98765-4321</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span>🕐</span>
+                    <div>
+                        <strong>Horário</strong>
+                        <p>Seg a Sáb: 6h às 19h</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span>📧</span>
+                    <div>
+                        <strong>E-mail</strong>
+                        <p>contato@quitandadoze.com.br</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Quitanda do Zé - Todos os direitos reservados 🍊</p>
+        </div>
+    </footer>
+
+    <!-- CARRINHO LATERAL -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <aside class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>🛒 Seu Carrinho</h3>
+            <button class="close-cart" id="closeCart" aria-label="Fechar carrinho">✕</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">
+                <span>🧺</span>
+                <p>Seu carrinho está vazio</p>
+                <small>Adicione produtos fresquinhos!</small>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <strong id="cartTotal">R$ 0,00</strong>
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">Finalizar Pedido</button>
+        </div>
+    </aside>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✅</span>
+        <span class="toast-message" id="toastMessage">Produto adicionado!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

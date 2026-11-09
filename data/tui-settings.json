@@ -1,0 +1,11 @@
+{
+  "lastTab": 5,
+  "chat": {
+    "model": "qwen3.8-max",
+    "effort": "high",
+    "mode": "thread"
+  },
+  "logs": {
+    "filter": "all"
+  }
+}

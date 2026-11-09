@@ -1,0 +1,2627 @@
+{
+  "name": "LocalDevAI Knowledge Library",
+  "version": "1.1.0",
+  "language": "pt-BR",
+  "description": "Catálogo único com 156 recursos de CDN e documentação para frontend, design/UI/UX, CSS/layout, JavaScript, ícones, fontes, cores, animações, gráficos, formulários, acessibilidade, Laravel/PHP, Flutter/Dart, mapas, testes e qualidade de software.",
+  "schema": {
+    "name": "string",
+    "category": "string",
+    "type": "cdn | documentation",
+    "cdn_url": "string | null",
+    "documentation_url": "string",
+    "description": "string",
+    "keywords": "string[]",
+    "enabled": "boolean"
+  },
+  "notes": [
+    "cdn_url null significa que o recurso não deve ser tratado como CDN; consulte a documentação para instalação via npm, Composer, pub.dev ou registry.",
+    "URLs CDN são referências iniciais; valide disponibilidade, versão e integridade antes de usar em produção.",
+    "Versões com latest ou x são convenientes para protótipos; prefira versões fixas em produção.",
+    "A biblioteca não substitui a inspeção do projeto nem a documentação específica da versão instalada."
+  ],
+  "resources": [
+    {
+      "name": "CSS Flexbox",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout",
+      "description": "documentação oficial de Flexbox: flex-direction, flex-wrap, justify-content, align-items, gap.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "flexbox",
+        "grid",
+        "breakpoints",
+        "container queries",
+        "media queries",
+        "flex-direction",
+        "justify-content",
+        "align-items",
+        "gap"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flexbox Froggy",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://flexboxfroggy.com/",
+      "description": "Exercícios interativos para aprender Flexbox.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "flexbox",
+        "froggy",
+        "jogos",
+        "pratica",
+        "flexbox game",
+        "learn flexbox",
+        "css practice"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Grid",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout",
+      "description": "Documentação de CSS Grid.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "grid",
+        "grid-template-columns",
+        "grid-template-rows",
+        "gap"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Grid Garden",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://cssgridgarden.com/",
+      "description": "Exercícios interativos de CSS Grid.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "grid",
+        "garden",
+        "jogos",
+        "exercicios"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Container Queries",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries",
+      "description": "Layouts adaptáveis ao tamanho do contêiner.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "container",
+        "queries",
+        "component queries"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Media Queries",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries",
+      "description": "Breakpoints e responsividade.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "media",
+        "queries",
+        "breakpoints"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Logical Properties",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties",
+      "description": "Propriedades lógicas para layouts multilíngues.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "logical",
+        "properties",
+        "i18n",
+        "rtl"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Position",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position",
+      "description": "Position static, relative, absolute, fixed e sticky.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "position",
+        "static",
+        "relative",
+        "absolute",
+        "fixed",
+        "sticky"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Selectors",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors",
+      "description": "Seletores CSS.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "selectors",
+        "seletores",
+        "pseudo-classes"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Animations",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations",
+      "description": "Animações nativas CSS.",
+      "keywords": [
+        "css",
+        "layout",
+        "animations",
+        "keyframes",
+        "transitions",
+        "motion"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Transitions",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions",
+      "description": "Transições CSS.",
+      "keywords": [
+        "css",
+        "layout",
+        "transitions",
+        "transicoes",
+        "smooth"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Custom Properties",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties",
+      "description": "Variáveis CSS.",
+      "keywords": [
+        "css",
+        "layout",
+        "custom",
+        "properties",
+        "variaveis",
+        "css variables",
+        "tokens"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CSS Functions",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_functions",
+      "description": "Funções CSS como calc(), clamp(), min() e max().",
+      "keywords": [
+        "css",
+        "layout",
+        "functions",
+        "calc",
+        "clamp",
+        "min",
+        "max",
+        "responsividade"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Modern CSS",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://moderncss.dev/",
+      "description": "Padrões e técnicas modernas de CSS.",
+      "keywords": [
+        "css",
+        "layout",
+        "modern",
+        "padroes",
+        "best practices",
+        "frontend"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Responsive Design",
+      "category": "css-layout",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://web.dev/learn/design/",
+      "description": "Princípios de design responsivo.",
+      "keywords": [
+        "css",
+        "layout",
+        "responsividade",
+        "responsive",
+        "design",
+        "mobile first",
+        "viewport"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Bootstrap 5",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css",
+      "documentation_url": "https://getbootstrap.com/docs/",
+      "description": "Framework CSS responsivo.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "bootstrap",
+        "bs5",
+        "bootstrap css",
+        "grid",
+        "components"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Bootstrap JavaScript",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js",
+      "documentation_url": "https://getbootstrap.com/docs/",
+      "description": "Componentes interativos do Bootstrap.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "componentes",
+        "frontend",
+        "bootstrap",
+        "modal",
+        "dropdown"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tailwind CSS Browser",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4",
+      "documentation_url": "https://tailwindcss.com/docs",
+      "description": "Tailwind no navegador para protótipos; produção deve usar build.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "tailwind",
+        "browser",
+        "utility-first",
+        "utility classes"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Bulma",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/bulma@1/css/bulma.min.css",
+      "documentation_url": "https://bulma.io/documentation/",
+      "description": "Framework CSS baseado em Flexbox.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "bulma",
+        "flexbox",
+        "modern css"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "UIkit CSS",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/uikit@3/dist/css/uikit.min.css",
+      "documentation_url": "https://getuikit.com/docs/",
+      "description": "Framework UIkit CSS.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "uikit",
+        "components",
+        "responsive"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "UIkit JS",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/uikit@3/dist/js/uikit.min.js",
+      "documentation_url": "https://getuikit.com/docs/",
+      "description": "Componentes JavaScript do UIkit.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "componentes",
+        "frontend",
+        "uikit"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Pico CSS",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css",
+      "documentation_url": "https://picocss.com/docs/",
+      "description": "CSS minimalista com estilos semânticos.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "pico",
+        "minimalista",
+        "semantic html",
+        "classless"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Skeleton",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css",
+      "documentation_url": "http://getskeleton.com/",
+      "description": "Micro framework CSS.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "skeleton",
+        "micro",
+        "minimalist"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Foundation",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css",
+      "documentation_url": "https://get.foundation/sites/docs/",
+      "description": "Framework responsivo Foundation.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "foundation",
+        "responsive",
+        "sites"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Milligram",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/milligram/dist/milligram.min.css",
+      "documentation_url": "https://milligram.io/",
+      "description": "Micro framework CSS.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "milligram",
+        "micro",
+        "clean"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Materialize CSS",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/materialize-css/dist/css/materialize.min.css",
+      "documentation_url": "https://materializecss.com/",
+      "description": "Framework baseado em Material Design.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "materialize",
+        "material",
+        "design"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "DaisyUI",
+      "category": "css-framework",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://daisyui.com/docs/",
+      "description": "Componentes para Tailwind CSS; instalar via pacote/build.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "daisyui",
+        "tailwind",
+        "plugin",
+        "components"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "PrimeFlex",
+      "category": "css-framework",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/primeflex/primeflex.css",
+      "documentation_url": "https://primeflex.org/",
+      "description": "Utilitários CSS para layout.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "primeflex",
+        "utilities",
+        "layout",
+        "flexbox"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "UnoCSS",
+      "category": "css-framework",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://unocss.dev/guide/",
+      "description": "Engine CSS atômico; integração via build.",
+      "keywords": [
+        "css",
+        "frontend",
+        "framework",
+        "unocss",
+        "atomic",
+        "vite"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Material Design 3",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://m3.material.io/",
+      "description": "Sistema de design do Google.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "material",
+        "google",
+        "m3"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Carbon Design System",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://carbondesignsystem.com/",
+      "description": "Design system IBM.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "carbon",
+        "ibm",
+        "enterprise"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Fluent UI",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://react.fluentui.dev/",
+      "description": "Componentes Microsoft Fluent UI.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "fluent",
+        "microsoft",
+        "windows"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Ant Design",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ant.design/components/",
+      "description": "Sistema de componentes React.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "ant",
+        "react",
+        "enterprise"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Chakra UI",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://chakra-ui.com/docs",
+      "description": "Biblioteca de componentes React.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "chakra",
+        "react",
+        "accessible"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Mantine",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://mantine.dev/",
+      "description": "Componentes e hooks React.",
+      "keywords": [
+        "design system",
+        "ui",
+        "ux",
+        "componentes",
+        "mantine",
+        "hooks",
+        "react"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "shadcn/ui",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.shadcn.com/docs",
+      "description": "Componentes copiáveis; não é uma CDN convencional.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "shadcn",
+        "radix",
+        "tailwind"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "shadcn Registry",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.shadcn.com/docs/registry",
+      "description": "Registry de componentes shadcn.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "shadcn",
+        "cli"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "shadcn Blocks",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.shadcn.com/blocks",
+      "description": "Blocos de interface.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "shadcn",
+        "blocks",
+        "dashboards"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "shadcn Charts",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.shadcn.com/charts",
+      "description": "Exemplos de gráficos.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "shadcn",
+        "charts",
+        "recharts"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "shadcn Themes",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.shadcn.com/themes",
+      "description": "Temas shadcn.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "shadcn",
+        "themes",
+        "colors"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "21st.dev",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://21st.dev/",
+      "description": "Componentes e referências de interface.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "21st.dev",
+        "inspiration"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Magic UI",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://magicui.design/docs",
+      "description": "Componentes e efeitos para React.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "magic ui",
+        "effects",
+        "motion"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Aceternity UI",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://ui.aceternity.com/components",
+      "description": "Componentes visuais React.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "aceternity",
+        "visuals",
+        "framer motion"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Origin UI",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://originui.com/",
+      "description": "Componentes de interface.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "origin",
+        "tailwind"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Cult UI",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://cult-ui.com/docs",
+      "description": "Componentes React.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "cult",
+        "modern"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tremor",
+      "category": "component-registry",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.tremor.so/docs",
+      "description": "Componentes para dashboards.",
+      "keywords": [
+        "componentes",
+        "registry",
+        "ui",
+        "react",
+        "tremor",
+        "dashboards",
+        "analytics"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Headless UI",
+      "category": "component-library",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://headlessui.com/",
+      "description": "Componentes acessíveis sem estilo visual imposto.",
+      "keywords": [
+        "componentes",
+        "ui",
+        "acessibilidade",
+        "react",
+        "vue",
+        "headless",
+        "tailwind"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Radix UI",
+      "category": "component-library",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
+      "description": "Primitivos acessíveis para React.",
+      "keywords": [
+        "componentes",
+        "ui",
+        "acessibilidade",
+        "react",
+        "radix",
+        "primitives",
+        "a11y"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Base UI",
+      "category": "component-library",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://base-ui.com/react/overview/quick-start",
+      "description": "Componentes headless.",
+      "keywords": [
+        "componentes",
+        "ui",
+        "acessibilidade",
+        "react",
+        "base ui",
+        "mui",
+        "headless"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "React Aria",
+      "category": "component-library",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://react-spectrum.adobe.com/react-aria/",
+      "description": "Primitivos acessíveis Adobe.",
+      "keywords": [
+        "componentes",
+        "ui",
+        "acessibilidade",
+        "react",
+        "aria",
+        "adobe",
+        "spectrum"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Alpine.js",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js",
+      "documentation_url": "https://alpinejs.dev/",
+      "description": "Interatividade declarativa leve.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "alpine.js",
+        "declarative",
+        "lightweight"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "HTMX",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/htmx.org@2.0.4/dist/htmx.min.js",
+      "documentation_url": "https://htmx.org/docs/",
+      "description": "Interações HTML via atributos e requisições HTTP.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "htmx",
+        "ajax",
+        "hypermedia",
+        "html"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "jQuery",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://code.jquery.com/jquery-3.7.1.min.js",
+      "documentation_url": "https://api.jquery.com/",
+      "description": "Manipulação DOM e compatibilidade.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "jquery",
+        "dom",
+        "ajax"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Lodash",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/lodash/lodash.min.js",
+      "documentation_url": "https://lodash.com/docs/",
+      "description": "Utilitários JavaScript.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "lodash",
+        "utilities",
+        "array",
+        "object"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Day.js",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/dayjs/dayjs.min.js",
+      "documentation_url": "https://day.js.org/docs/en/installation/installation",
+      "description": "Manipulação de datas.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "day.js",
+        "datas",
+        "dates",
+        "time",
+        "moment"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Axios",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js",
+      "documentation_url": "https://axios-http.com/docs/intro",
+      "description": "Cliente HTTP.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "axios",
+        "http",
+        "api",
+        "fetch"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "SortableJS",
+      "category": "javascript",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/sortablejs/Sortable.min.js",
+      "documentation_url": "https://sortablejs.github.io/Sortable/",
+      "description": "Arrastar e ordenar elementos.",
+      "keywords": [
+        "javascript",
+        "js",
+        "frontend",
+        "sortablejs",
+        "drag and drop",
+        "reorder"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tippy.js",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js",
+      "documentation_url": "https://atomiks.github.io/tippyjs/",
+      "description": "Tooltips e popovers.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "tippy.js",
+        "tooltips",
+        "popovers",
+        "popper"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "SweetAlert2",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js",
+      "documentation_url": "https://sweetalert2.github.io/",
+      "description": "Alertas e diálogos.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "sweetalert2",
+        "modals",
+        "alerts",
+        "dialogs"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Shepherd.js",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/shepherd.js/dist/js/shepherd.min.js",
+      "documentation_url": "https://shepherdjs.dev/",
+      "description": "Tours guiados de interface.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "shepherd.js",
+        "onboarding",
+        "tours"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Floating UI",
+      "category": "javascript-ui",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@floating-ui/dom",
+      "documentation_url": "https://floating-ui.com/docs/",
+      "description": "Posicionamento de popovers, menus e tooltips.",
+      "keywords": [
+        "javascript",
+        "ui",
+        "interface",
+        "floating ui",
+        "popper",
+        "positioning"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Motion",
+      "category": "animation",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://motion.dev/docs",
+      "description": "Animações para interfaces.",
+      "keywords": [
+        "animation",
+        "motion",
+        "framer motion",
+        "transitions",
+        "effects"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Lucide",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js",
+      "documentation_url": "https://lucide.dev/",
+      "description": "Ícones Lucide.",
+      "keywords": [
+        "icons",
+        "svg",
+        "lucide",
+        "lucide icons",
+        "interface"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Bootstrap Icons",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/bootstrap-icons@1/font/bootstrap-icons.min.css",
+      "documentation_url": "https://icons.getbootstrap.com/",
+      "description": "Ícones Bootstrap.",
+      "keywords": [
+        "icons",
+        "svg",
+        "bootstrap",
+        "bootstrap icons"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Font Awesome",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css",
+      "documentation_url": "https://fontawesome.com/docs",
+      "description": "Biblioteca de ícones.",
+      "keywords": [
+        "icons",
+        "font awesome",
+        "fa",
+        "svg"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tabler Icons",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css",
+      "documentation_url": "https://tabler.io/icons",
+      "description": "Ícones Tabler.",
+      "keywords": [
+        "icons",
+        "tabler",
+        "webfont",
+        "svg"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Phosphor Icons",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@phosphor-icons/web",
+      "documentation_url": "https://phosphoricons.com/",
+      "description": "Ícones Phosphor.",
+      "keywords": [
+        "icons",
+        "phosphor",
+        "svg"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Material Symbols",
+      "category": "icons",
+      "type": "cdn",
+      "cdn_url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+      "documentation_url": "https://fonts.google.com/icons",
+      "description": "Ícones Material Symbols.",
+      "keywords": [
+        "icons",
+        "material symbols",
+        "google",
+        "material design"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Google Fonts",
+      "category": "fonts",
+      "type": "cdn",
+      "cdn_url": "https://fonts.googleapis.com/",
+      "documentation_url": "https://developers.google.com/fonts",
+      "description": "Fontes web.",
+      "keywords": [
+        "fonts",
+        "typography",
+        "google fonts",
+        "inter",
+        "roboto"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Fontsource",
+      "category": "fonts",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://fontsource.org/docs",
+      "description": "Pacotes de fontes para projetos.",
+      "keywords": [
+        "fonts",
+        "fontsource",
+        "self-hosted",
+        "npm"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Open Color",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://yeun.github.io/open-color/",
+      "description": "Paleta de cores.",
+      "keywords": [
+        "colors",
+        "palette",
+        "open color",
+        "ui colors"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Radix Colors",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.radix-ui.com/colors/docs/overview/usage",
+      "description": "Escalas de cores para UI.",
+      "keywords": [
+        "colors",
+        "radix colors",
+        "palette",
+        "accessible colors"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tailwind Colors",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://tailwindcss.com/docs/colors",
+      "description": "Paleta Tailwind.",
+      "keywords": [
+        "colors",
+        "tailwind colors",
+        "palette"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Material Color Utilities",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://github.com/material-foundation/material-color-utilities",
+      "description": "Geração e manipulação de cores Material.",
+      "keywords": [
+        "colors",
+        "material",
+        "dynamic color",
+        "theming"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Color.js",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://colorjs.io/docs/",
+      "description": "Manipulação avançada de cores.",
+      "keywords": [
+        "colors",
+        "color.js",
+        "oklch",
+        "color spaces"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "TinyColor",
+      "category": "color-design",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/tinycolor2@latest/dist/tinycolor-min.js",
+      "documentation_url": "https://github.com/bgrins/TinyColor",
+      "description": "Conversão e manipulação de cores.",
+      "keywords": [
+        "colors",
+        "tinycolor",
+        "hex",
+        "rgb",
+        "hsl"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Chroma.js",
+      "category": "color-design",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/chroma-js@latest/chroma.min.js",
+      "documentation_url": "https://gka.github.io/chroma.js/",
+      "description": "Escalas e conversão de cores.",
+      "keywords": [
+        "colors",
+        "chroma.js",
+        "color scales",
+        "gradients"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Culori",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://culorijs.org/",
+      "description": "Biblioteca de cores JavaScript.",
+      "keywords": [
+        "colors",
+        "culori",
+        "color management"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "OKLCH Color Picker",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://oklch.com/",
+      "description": "Ferramenta para cores OKLCH.",
+      "keywords": [
+        "colors",
+        "oklch",
+        "perceptual color",
+        "css"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Coolors",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://coolors.co/",
+      "description": "Geração de paletas.",
+      "keywords": [
+        "colors",
+        "coolors",
+        "palette generator"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Huemint",
+      "category": "color-design",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://huemint.com/",
+      "description": "Geração de paletas com IA.",
+      "keywords": [
+        "colors",
+        "huemint",
+        "ai palette"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "WebAIM Contrast Checker",
+      "category": "accessibility",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://webaim.org/resources/contrastchecker/",
+      "description": "Verificação de contraste.",
+      "keywords": [
+        "accessibility",
+        "wcag",
+        "contrast",
+        "a11y"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Animate.css",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/animate.css@4/animate.min.css",
+      "documentation_url": "https://animate.style/",
+      "description": "Animações CSS prontas.",
+      "keywords": [
+        "animation",
+        "animate.css",
+        "css animations"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "AOS",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css",
+      "documentation_url": "https://michalsnik.github.io/aos/",
+      "description": "Animações ao rolar a página; CDN JS também disponível.",
+      "keywords": [
+        "animation",
+        "aos",
+        "scroll animation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "GSAP",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js",
+      "documentation_url": "https://gsap.com/docs/",
+      "description": "Animação avançada.",
+      "keywords": [
+        "animation",
+        "gsap",
+        "timelines",
+        "greensock"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Anime.js",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js",
+      "documentation_url": "https://animejs.com/documentation/",
+      "description": "Animações JavaScript.",
+      "keywords": [
+        "animation",
+        "anime.js",
+        "javascript animation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Lottie Web",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/lottie-web/build/player/lottie.min.js",
+      "documentation_url": "https://airbnb.io/lottie/",
+      "description": "Renderização de animações Lottie.",
+      "keywords": [
+        "animation",
+        "lottie",
+        "airbnb",
+        "vector animation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Rive",
+      "category": "animation",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://rive.app/docs",
+      "description": "Animações interativas Rive.",
+      "keywords": [
+        "animation",
+        "rive",
+        "interactive animation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Three.js",
+      "category": "3d-graphics",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/three/build/three.module.js",
+      "documentation_url": "https://threejs.org/docs/",
+      "description": "Gráficos 3D WebGL.",
+      "keywords": [
+        "3d",
+        "webgl",
+        "three.js",
+        "graphics"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Particles.js",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/particles.js/particles.min.js",
+      "documentation_url": "https://vincentgarreau.com/particles.js/",
+      "description": "Efeitos de partículas.",
+      "keywords": [
+        "animation",
+        "particles",
+        "backgrounds"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Vivus",
+      "category": "animation",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/vivus/dist/vivus.min.js",
+      "documentation_url": "https://maxwellito.github.io/vivus/",
+      "description": "Animação de SVG.",
+      "keywords": [
+        "animation",
+        "vivus",
+        "svg draw"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Chart.js",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js",
+      "documentation_url": "https://www.chartjs.org/docs/latest/",
+      "description": "Gráficos comuns.",
+      "keywords": [
+        "charts",
+        "chart.js",
+        "data visualization",
+        "dashboards"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "ApexCharts",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/apexcharts/dist/apexcharts.min.js",
+      "documentation_url": "https://apexcharts.com/docs/",
+      "description": "Gráficos e dashboards.",
+      "keywords": [
+        "charts",
+        "apexcharts",
+        "visualizacao",
+        "interactive"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Apache ECharts",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js",
+      "documentation_url": "https://echarts.apache.org/en/index.html",
+      "description": "Visualização avançada de dados.",
+      "keywords": [
+        "charts",
+        "echarts",
+        "apache",
+        "big data"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "D3.js",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/d3/dist/d3.min.js",
+      "documentation_url": "https://d3js.org/",
+      "description": "Visualização de dados customizada.",
+      "keywords": [
+        "charts",
+        "d3.js",
+        "svg",
+        "custom viz"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Plotly.js",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.plot.ly/plotly-2.35.2.min.js",
+      "documentation_url": "https://plotly.com/javascript/",
+      "description": "Gráficos interativos.",
+      "keywords": [
+        "charts",
+        "plotly",
+        "scientific"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Mermaid",
+      "category": "diagrams",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js",
+      "documentation_url": "https://mermaid.js.org/",
+      "description": "Diagramas declarativos.",
+      "keywords": [
+        "diagrams",
+        "mermaid",
+        "flowcharts",
+        "architecture"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Frappe Charts",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/frappe-charts/dist/frappe-charts.min.iife.js",
+      "documentation_url": "https://frappe.io/charts",
+      "description": "Gráficos simples.",
+      "keywords": [
+        "charts",
+        "frappe",
+        "simple"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "uPlot",
+      "category": "charts",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/uplot/dist/uPlot.iife.min.js",
+      "documentation_url": "https://github.com/leeoniya/uPlot",
+      "description": "Gráficos rápidos.",
+      "keywords": [
+        "charts",
+        "uplot",
+        "fast",
+        "time series"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "DataTables",
+      "category": "tables",
+      "type": "cdn",
+      "cdn_url": "https://cdn.datatables.net/2.2.2/js/dataTables.min.js",
+      "documentation_url": "https://datatables.net/manual/",
+      "description": "Tabelas com busca, paginação e ordenação.",
+      "keywords": [
+        "tables",
+        "datatables",
+        "sorting",
+        "pagination"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tabulator",
+      "category": "tables",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/tabulator-tables/dist/js/tabulator.min.js",
+      "documentation_url": "https://tabulator.info/docs/",
+      "description": "Tabelas avançadas.",
+      "keywords": [
+        "tables",
+        "tabulator",
+        "grids"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Grid.js",
+      "category": "tables",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/gridjs/dist/gridjs.umd.js",
+      "documentation_url": "https://gridjs.io/docs",
+      "description": "Tabelas leves.",
+      "keywords": [
+        "tables",
+        "grid.js",
+        "lightweight"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Choices.js",
+      "category": "forms",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js",
+      "documentation_url": "https://choices-js.github.io/Choices/",
+      "description": "Selects e multiselect.",
+      "keywords": [
+        "forms",
+        "choices.js",
+        "select",
+        "multiselect"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tom Select",
+      "category": "forms",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/tom-select/dist/js/tom-select.complete.min.js",
+      "documentation_url": "https://tom-select.js.org/",
+      "description": "Selects avançados.",
+      "keywords": [
+        "forms",
+        "tom select",
+        "autocomplete"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flatpickr",
+      "category": "forms",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.js",
+      "documentation_url": "https://flatpickr.js.org/",
+      "description": "Seletor de datas.",
+      "keywords": [
+        "forms",
+        "flatpickr",
+        "datepicker",
+        "calendar"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "FullCalendar",
+      "category": "calendar",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/fullcalendar/index.global.min.js",
+      "documentation_url": "https://fullcalendar.io/docs",
+      "description": "Calendários e agendas.",
+      "keywords": [
+        "calendar",
+        "fullcalendar",
+        "events",
+        "agenda"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Quill",
+      "category": "editors",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/quill/dist/quill.js",
+      "documentation_url": "https://quilljs.com/docs/",
+      "description": "Editor rich text.",
+      "keywords": [
+        "editors",
+        "quill",
+        "wysiwyg",
+        "rich text"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Tiptap",
+      "category": "editors",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://tiptap.dev/docs",
+      "description": "Editor rich text extensível.",
+      "keywords": [
+        "editors",
+        "tiptap",
+        "prosemirror",
+        "headless editor"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CodeMirror",
+      "category": "code-editors",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://codemirror.net/docs/",
+      "description": "Editor de código web.",
+      "keywords": [
+        "code-editors",
+        "codemirror",
+        "syntax highlighting"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Monaco Editor",
+      "category": "code-editors",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/monaco-editor/min/vs/loader.js",
+      "documentation_url": "https://microsoft.github.io/monaco-editor/",
+      "description": "Editor usado no VS Code; requer configuração de assets.",
+      "keywords": [
+        "code-editors",
+        "monaco",
+        "vs code editor"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "FilePond",
+      "category": "uploads",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/filepond/dist/filepond.min.js",
+      "documentation_url": "https://pqina.nl/filepond/",
+      "description": "Upload de arquivos.",
+      "keywords": [
+        "uploads",
+        "filepond",
+        "file upload"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Dropzone",
+      "category": "uploads",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/dropzone/dist/dropzone-min.js",
+      "documentation_url": "https://docs.dropzone.dev/",
+      "description": "Upload drag-and-drop.",
+      "keywords": [
+        "uploads",
+        "dropzone",
+        "drag and drop"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Zod",
+      "category": "validation",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://zod.dev/",
+      "description": "Validação de schemas TypeScript/JavaScript.",
+      "keywords": [
+        "validation",
+        "zod",
+        "schema",
+        "typescript"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "IMask",
+      "category": "forms",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/imask/dist/imask.min.js",
+      "documentation_url": "https://imask.js.org/",
+      "description": "Máscaras de entrada.",
+      "keywords": [
+        "forms",
+        "imask",
+        "input mask",
+        "formatting"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "WCAG 2.2",
+      "category": "accessibility",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "description": "Critérios de acessibilidade.",
+      "keywords": [
+        "accessibility",
+        "wcag",
+        "a11y",
+        "guidelines"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "WAI-ARIA APG",
+      "category": "accessibility",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.w3.org/WAI/ARIA/apg/",
+      "description": "Padrões de componentes acessíveis.",
+      "keywords": [
+        "accessibility",
+        "wai-aria",
+        "apg",
+        "patterns"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "WebAIM",
+      "category": "accessibility",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://webaim.org/standards/wcag/",
+      "description": "Orientações de acessibilidade.",
+      "keywords": [
+        "accessibility",
+        "webaim",
+        "standards"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "axe-core",
+      "category": "accessibility",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/axe-core/axe.min.js",
+      "documentation_url": "https://github.com/dequelabs/axe-core",
+      "description": "Testes automatizados de acessibilidade.",
+      "keywords": [
+        "accessibility",
+        "axe-core",
+        "testing",
+        "a11y test"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Lighthouse",
+      "category": "performance",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.chrome.com/docs/lighthouse/overview/",
+      "description": "Auditoria de performance, acessibilidade e SEO.",
+      "keywords": [
+        "performance",
+        "lighthouse",
+        "seo",
+        "audit"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Core Web Vitals",
+      "category": "performance",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://web.dev/articles/vitals",
+      "description": "Métricas de experiência e performance.",
+      "keywords": [
+        "performance",
+        "core web vitals",
+        "lcp",
+        "cls",
+        "inp"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Can I Use",
+      "category": "compatibility",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://caniuse.com/",
+      "description": "Compatibilidade de recursos entre navegadores.",
+      "keywords": [
+        "compatibility",
+        "caniuse",
+        "cross-browser"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "web.dev",
+      "category": "web-standards",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://web.dev/learn/",
+      "description": "Guias de desenvolvimento web.",
+      "keywords": [
+        "web-standards",
+        "web.dev",
+        "best practices"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Laravel",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://laravel.com/docs",
+      "description": "Framework PHP.",
+      "keywords": [
+        "laravel",
+        "php",
+        "backend",
+        "eloquent",
+        "artisan",
+        "routing",
+        "middleware"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Filament",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://filamentphp.com/docs",
+      "description": "Painéis administrativos Laravel.",
+      "keywords": [
+        "laravel",
+        "php",
+        "filament",
+        "admin panel",
+        "forms",
+        "tables"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Livewire",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://livewire.laravel.com/docs",
+      "description": "Interfaces dinâmicas Laravel.",
+      "keywords": [
+        "laravel",
+        "php",
+        "livewire",
+        "fullstack",
+        "reactive"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Livewire Volt",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://livewire.laravel.com/docs/volt",
+      "description": "Sintaxe funcional para componentes Livewire.",
+      "keywords": [
+        "laravel",
+        "php",
+        "livewire",
+        "volt",
+        "functional"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Inertia.js",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://inertiajs.com/docs",
+      "description": "Integração Laravel com frameworks frontend.",
+      "keywords": [
+        "laravel",
+        "php",
+        "inertia",
+        "vue",
+        "react",
+        "spa"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "PHP",
+      "category": "php",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://www.php.net/manual/",
+      "description": "Linguagem PHP.",
+      "keywords": [
+        "php",
+        "backend",
+        "language",
+        "manual"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Composer",
+      "category": "php",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://getcomposer.org/doc/",
+      "description": "Gerenciador de dependências PHP.",
+      "keywords": [
+        "php",
+        "composer",
+        "packages",
+        "dependencies"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Laravel Sanctum",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://laravel.com/docs/sanctum",
+      "description": "Autenticação API e SPA.",
+      "keywords": [
+        "laravel",
+        "php",
+        "sanctum",
+        "auth",
+        "tokens",
+        "spa"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Laravel Reverb",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://laravel.com/docs/reverb",
+      "description": "WebSockets Laravel.",
+      "keywords": [
+        "laravel",
+        "php",
+        "reverb",
+        "websockets",
+        "realtime"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Spatie",
+      "category": "php-laravel",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://spatie.be/docs",
+      "description": "Pacotes e soluções PHP/Laravel.",
+      "keywords": [
+        "laravel",
+        "php",
+        "spatie",
+        "packages",
+        "permissions"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "PHPStan",
+      "category": "php",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://phpstan.org/user-guide/getting-started",
+      "description": "Análise estática PHP.",
+      "keywords": [
+        "php",
+        "phpstan",
+        "static analysis",
+        "types"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Pest PHP",
+      "category": "php",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pestphp.com/docs",
+      "description": "Testes PHP.",
+      "keywords": [
+        "php",
+        "pest",
+        "testing",
+        "phpunit"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flutter",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://docs.flutter.dev/",
+      "description": "Framework multiplataforma.",
+      "keywords": [
+        "flutter",
+        "dart",
+        "mobile",
+        "cross-platform",
+        "ios",
+        "android"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Dart",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://dart.dev/guides",
+      "description": "Linguagem Dart.",
+      "keywords": [
+        "dart",
+        "language",
+        "flutter",
+        "async"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Pub.dev",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pub.dev/",
+      "description": "Pacotes Dart e Flutter.",
+      "keywords": [
+        "flutter",
+        "dart",
+        "pub.dev",
+        "packages"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flutter Material",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://api.flutter.dev/flutter/material/material-library.html",
+      "description": "Widgets Material do Flutter.",
+      "keywords": [
+        "flutter",
+        "material",
+        "widgets",
+        "ui"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Riverpod",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://riverpod.dev/docs/introduction/getting_started",
+      "description": "Gerenciamento de estado.",
+      "keywords": [
+        "flutter",
+        "riverpod",
+        "state management"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Bloc",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://bloclibrary.dev/",
+      "description": "Gerenciamento de estado e arquitetura.",
+      "keywords": [
+        "flutter",
+        "bloc",
+        "state management",
+        "cubit"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "GoRouter",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pub.dev/documentation/go_router/latest/",
+      "description": "Navegação Flutter.",
+      "keywords": [
+        "flutter",
+        "gorouter",
+        "routing",
+        "navigation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flutter Hooks",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pub.dev/documentation/flutter_hooks/latest/",
+      "description": "Hooks para Flutter.",
+      "keywords": [
+        "flutter",
+        "hooks",
+        "lifecycle"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Dio",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pub.dev/documentation/dio/latest/",
+      "description": "Cliente HTTP Dart.",
+      "keywords": [
+        "flutter",
+        "dart",
+        "dio",
+        "http",
+        "api"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Flutter Animate",
+      "category": "flutter-mobile",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://pub.dev/documentation/flutter_animate/latest/",
+      "description": "Animações Flutter.",
+      "keywords": [
+        "flutter",
+        "animate",
+        "animations"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Leaflet",
+      "category": "maps",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/leaflet/dist/leaflet.js",
+      "documentation_url": "https://leafletjs.com/reference.html",
+      "description": "Mapas interativos.",
+      "keywords": [
+        "maps",
+        "leaflet",
+        "gis",
+        "interactive maps"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "MapLibre GL JS",
+      "category": "maps",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/maplibre-gl/dist/maplibre-gl.js",
+      "documentation_url": "https://maplibre.org/maplibre-gl-js/docs/",
+      "description": "Mapas vetoriais.",
+      "keywords": [
+        "maps",
+        "maplibre",
+        "vector maps",
+        "webgl"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "OpenLayers",
+      "category": "maps",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/ol/dist/ol.js",
+      "documentation_url": "https://openlayers.org/en/latest/apidoc/",
+      "description": "Mapas e dados geográficos.",
+      "keywords": [
+        "maps",
+        "openlayers",
+        "gis"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Turf.js",
+      "category": "maps",
+      "type": "cdn",
+      "cdn_url": "https://cdn.jsdelivr.net/npm/@turf/turf/turf.min.js",
+      "documentation_url": "https://turfjs.org/",
+      "description": "Operações geoespaciais.",
+      "keywords": [
+        "maps",
+        "turf.js",
+        "geospatial",
+        "geojson"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Vitest",
+      "category": "testing",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://vitest.dev/guide/",
+      "description": "Testes unitários.",
+      "keywords": [
+        "testing",
+        "vitest",
+        "unit test",
+        "vite"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Jest",
+      "category": "testing",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://jestjs.io/docs/getting-started",
+      "description": "Testes JavaScript.",
+      "keywords": [
+        "testing",
+        "jest",
+        "unit test"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Playwright",
+      "category": "testing",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://playwright.dev/docs/intro",
+      "description": "Automação e testes browser.",
+      "keywords": [
+        "testing",
+        "playwright",
+        "e2e",
+        "browser",
+        "automation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Cypress",
+      "category": "testing",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://docs.cypress.io/",
+      "description": "Testes end-to-end.",
+      "keywords": [
+        "testing",
+        "cypress",
+        "e2e"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "ESLint",
+      "category": "code-quality",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://eslint.org/docs/latest/",
+      "description": "Análise estática JavaScript.",
+      "keywords": [
+        "code-quality",
+        "eslint",
+        "linter",
+        "static analysis"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Prettier",
+      "category": "code-quality",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://prettier.io/docs/",
+      "description": "Formatação de código.",
+      "keywords": [
+        "code-quality",
+        "prettier",
+        "formatter"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Stylelint",
+      "category": "code-quality",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://stylelint.io/user-guide/",
+      "description": "Lint CSS.",
+      "keywords": [
+        "code-quality",
+        "stylelint",
+        "css linter"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Storybook",
+      "category": "component-development",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://storybook.js.org/docs",
+      "description": "Desenvolvimento e documentação de componentes.",
+      "keywords": [
+        "components",
+        "storybook",
+        "design system",
+        "ui documentation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Apple Human Interface Guidelines",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://developer.apple.com/design/human-interface-guidelines/",
+      "description": "Diretrizes de design e experiência do usuário da Apple.",
+      "keywords": [
+        "apple",
+        "hig",
+        "design system",
+        "ui",
+        "ux",
+        "ios",
+        "macos"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Impeccable (Neo Kinpaku)",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://github.com/pbakaus/impeccable",
+      "description": "Design system dark lacquer com gold leaf e geometria técnica precisa. Superfícies escuras minerais, kinpaku gold como acento primário, verdigris patina como secundário. Voz geométrica sans, linhas finas de calibração, sem glass/blur decorativo.",
+      "keywords": [
+        "design system",
+        "dark mode",
+        "gold leaf",
+        "lacquer",
+        "oklch",
+        "neo kinpaku",
+        "premium",
+        "luxury",
+        "typography",
+        "animation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Emil Kowalski Design Engineering Skills",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://github.com/emilkowalski/skills",
+      "description": "Skills de design engineering: framework de decisão de animação (quando animar, qual easing, qual duração), spring animations, princípios de componentes (botões responsivos, popovers origin-aware), performance cheatsheet, UI cheatsheet. Filosofia: taste is trained, unseen details compound, beauty is leverage.",
+      "keywords": [
+        "animation",
+        "spring",
+        "easing",
+        "duration",
+        "transform",
+        "opacity",
+        "performance",
+        "components",
+        "motion",
+        "design engineering",
+        "ui polish"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Taste Skill (Anti-Slop Frontend)",
+      "category": "design-system",
+      "type": "documentation",
+      "cdn_url": null,
+      "documentation_url": "https://github.com/leonxlnx/taste-skill",
+      "description": "Skill anti-slop para frontend: substitui padrões genéricos de IA com decisões deliberadas. House rules (nunca fazer): eyebrows, monospace fora de código, numeração de índice, regras finas, gradientes, sombras em repouso, glass, emoji, gradient blobs. Leis do craft: tipo (2-3 tamanhos, tracking específico), espaço (uma grid, margens apertadas), cor (um ground, um ink, um accent), imagery (uma dominante vence seis pequenas).",
+      "keywords": [
+        "anti-slop",
+        "frontend",
+        "design taste",
+        "house rules",
+        "craft",
+        "typography",
+        "layout",
+        "color",
+        "imagery",
+        "components",
+        "motion",
+        "premium"
+      ],
+      "enabled": true
+    }
+  ],
+  "package_info": {
+    "file_purpose": "Catálogo único de CDNs e documentação + prompt consolidado de implementação do LocalDevAI.",
+    "resource_count": 159,
+    "category_count": 32,
+    "cdn_count": 65,
+    "documentation_count": 159
+  }
+}

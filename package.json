@@ -1,0 +1,29 @@
+{
+  "name": "localdevai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local coding assistant MCP tools with llama.cpp and SearXNG",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node gateway/index.mjs",
+    "gateway": "node gateway/index.mjs",
+    "mcp": "node mcp/server.mjs",
+    "check": "node --check mcp/server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@mozilla/readability": "^0.6.0",
+    "better-sqlite3": "^13.0.3",
+    "cheerio": "^1.2.0",
+    "jsdom": "^30.1.3",
+    "redis": "^6.3.1",
+    "zod": "^3.25.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

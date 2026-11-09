@@ -1,0 +1,33 @@
+services:
+  searxng:
+    image: searxng/searxng:latest
+    container_name: localdevai-searxng
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8888:8080"
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:rw
+      - searxng-cache:/var/cache/searxng
+    environment:
+      SEARXNG_SECRET: "replace-this-with-a-long-random-secret"
+      SEARXNG_BASE_URL: "http://localhost:8888/"
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+      - DAC_OVERRIDE
+
+  redis:
+    image: redis:7-alpine
+    container_name: localdevai-redis
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis-data:/data
+
+volumes:
+  searxng-cache:
+  redis-data:
